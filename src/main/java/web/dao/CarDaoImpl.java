@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 @Repository
 public class CarDaoImpl implements CarDao {
-    @Autowired
+
     private static List<Car> cars = new ArrayList<>();
 
     static {
