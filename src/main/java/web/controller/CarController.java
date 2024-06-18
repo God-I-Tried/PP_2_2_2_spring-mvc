@@ -10,6 +10,7 @@ import web.service.CarService;
 @Controller
 public class CarController {
     
+    @Autowired
     private CarService carService;
 
     @GetMapping(value = "/cars")
